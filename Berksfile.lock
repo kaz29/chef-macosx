@@ -1,0 +1,14 @@
+{
+  "sha": "115ca2bdcbefa12b7a8f9c4c861aa67f2f8b12e0",
+  "sources": {
+    "homebrew": {
+      "locked_version": "1.5.4"
+    },
+    "mac_os_x": {
+      "locked_version": "1.4.2"
+    },
+    "dmg": {
+      "locked_version": "2.1.2"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "user": {
+    "name":  "kaz",
+    "group": "staff",
+    "email": "kaz@decr.jp"
+  },
+  "brew":{
+  	"packages":[
+  		"tree",
+  		"nkf",
+  		"wget",
+      "rbenv",
+      "ruby-build"
+  	]
+  },
+  "apps":[
+  	"1password",
+  	"alfred",
+  	"chrome",
+  	"vagrant",
+  	"dropbox",
+  	"iterm2",
+  	"skype",
+  	"virtualbox",
+  	"gitx",
+  	"limechat",
+  	"sublimetext3",
+  	"bartender",
+  	"mou",
+  	"sqleditor",
+  	"istatmenus",
+    "testflight",
+    "co-meeting"
+  ],
+  "memo":[
+  	"sophos zipでインストーラなので今のところうまく動かない",
+  	"ringokeiri 緊急事態で一時公開停止中"
+  ],
+  "run_list": [
+    "recipe[mac_os_x::settings]",
+    "recipe[mac::homebrew]",
+    "recipe[mac::default]",
+    "recipe[mac::apps]",
+    "recipe[mac::ruby]"
+  ]
+}
